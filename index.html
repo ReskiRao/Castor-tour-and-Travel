@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Castor Tour & Travel</title>
+    <script src="https://kit.fontawesome.com/ae360af17e.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+    <link href="https://cdn.lineicons.com/4.0/lineicons.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body class="dark">
+    <header>
+      <div class="navbar-top py-3 d-none d-md-block">
+        <div class="container">
+          <div class="row">
+            <div class="col-8 text-start">
+              <ul class="list-inline mb-0">
+                <li class="list-inline-item">
+                  <a href="#">
+                    <i class="lni lni-phone-set"></i>
+                    +01 (123) 4567 90
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#">
+                    <i class="lni lni-timer"></i>
+                    Mon - Sun 09:00-22:00
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-4 text-end">
+              <ul class="list-inline mb-0">
+                <li class="list-inline-item">
+                  <a href="#">
+                    <i class="lni lni-facebook-line"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#">
+                    <i class="lni lni-instagram-original"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#">
+                    <i class="lni lni-linkedin"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <nav class="navbar navbar-expand-lg py-0">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="image/logo.png" alt="logo" />
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto">
+              <li class="nav-item py-lg-4">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item py-lg-4">
+                <a class="nav-link" href="#">Company</a>
+              </li>
+              <li class="nav-item dropdown py-lg-4">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Destination </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Accomodation</a></li>
+                  <li><a class="dropdown-item" href="#">Activities</a></li>
+                  <li><a class="dropdown-item" href="#">Packages</a></li>
+                </ul>
+              </li>
+              <li class="nav-item py-lg-4">
+                <a class="nav-link" href="#">Trekking</a>
+              </li>
+              <li class="nav-item py-lg-4">
+                <a class="nav-link" href="#">Testimonial</a>
+              </li>
+              <li class="nav-item py-lg-4">
+                <a class="nav-link" href="#">Blog</a>
+              </li>
+              <li class="nav-item py-lg-4">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+          <button class="theme-toggle" type="button">
+            <i class="lni lni-night"></i>
+            <i class="lni lni-sun"></i>
+          </button>
+        </div>
+      </nav>
+    </header>
+    <section id="slider">
+      <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="image/Nusa Penida.jpg" class="d-block w-100" alt="..." />
+            <div class="carousel-caption">
+              <h5>Nusa Penida</h5>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="image/Bromo.jpg" class="d-block w-100" alt="..." />
+            <div class="carousel-caption">
+              <h5>Majestic Mount Bromo</h5>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="image/Tanah Lot.jpg" class="d-block w-100" alt="..." />
+            <div class="carousel-caption">
+              <h5>The Sacred Tanah Lot</h5>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <section id="welcome-content" class="py-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <h1 class="py-2 text-center">Welcome to Castor Tour & Travel</h1>
+            </div>
+          </div>
+          <div class="row">
+            <input type="checkbox" id="welcome-toggle" class="welcome-checkbox" />
+            <label for="welcome-toggle" class="welcome-checkbox"></label>
+            <div class="welcome-description mt-4">
+              <p>🌟 Welcome to Castor Tour and Travel! 🌟</p>
+              <p>Embark on unforgettable journeys with us and discover the world's most breathtaking destinations. At Castor Tour and Travel, we're dedicated to crafting enriching experiences that immerse you in the wonders of travel.</p>
+              <p>
+                From awe-inspiring natural landscapes to vibrant cultural encounters, our curated tours offer something for every explorer. Whether you're seeking adventure in rugged terrains, relaxation on sun-kissed beaches, or immersion
+                in local traditions, we have the perfect itinerary for you.
+              </p>
+              <p>
+                Join us as we wander through ancient cities, trek majestic mountains, and dive into crystalline waters. Let our team of passionate travel experts guide you every step of the way, ensuring seamless adventures filled with
+                unforgettable moments.
+              </p>
+              <p>Begin your journey with Castor Tour and Travel today and unlock the world's endless possibilities. Your next great adventure awaits!</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="destinations" class="pt-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <span class="subtitle"> Top Destination </span>
+              <h2 class="py-2 mb-3">Popular Destinations</h2>
+            </div>
+            <div class="col-lg-3 mb-5">
+              <div class="destination">
+                <div class="destination-image">
+                  <img src="image/Villa1.jpg" alt="" />
+                </div>
+                <div class="destination-info">
+                  <h3 class="mb-3">Villa</h3>
+                  <p>9 Tour Packages</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 mb-5">
+              <div class="destination">
+                <div class="destination-image">
+                  <img src="image/Surfing.jpg" alt="" />
+                </div>
+                <div class="destination-info">
+                  <h3 class="mb-3">Surfing</h3>
+                  <p>4 Tour Packages</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 mb-5">
+              <div class="destination">
+                <div class="destination-image">
+                  <img src="image/Hiking.jpg" alt="" />
+                </div>
+                <div class="destination-info">
+                  <h3 class="mb-3">Hiking</h3>
+                  <p>5 Tour Packages</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 mb-5">
+              <div class="destination">
+                <div class="destination-image">
+                  <img src="image/Culture.jpg" alt="" />
+                </div>
+                <div class="destination-info">
+                  <h3 class="mb-3">Cultural</h3>
+                  <p>6 Tour Packages</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="why-us" class="py-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <h2 class="text-center py-3">Why Castor Tour & Travel</h2>
+            </div>
+            <div class="col-md-4 col-12 mt-4">
+              <div class="text-center my-5 px-3 border-right">
+                <div class="icon">
+                  <i class="lni lni-checkmark-circle"></i>
+                </div>
+                <h6 class="py-2">Expertise in Destination Selection</h6>
+                <p class="mb-0">
+                  Castor Tour & Travel offers a wealth of expertise in selecting destinations that cater to diverse traveler preferences. Whether one seeks adventure, cultural immersion, or leisurely escapes, Castor ensures tailored
+                  itineraries that promise enriching experiences.
+                </p>
+              </div>
+            </div>
+
+            <div class="col-md-4 col-12 mt-4">
+              <div class="text-center my-5 px-3 border-right">
+                <div class="icon">
+                  <i class="lni lni-thumbs-up"></i>
+                </div>
+                <h6 class="py-2">Impeccable Service Standards</h6>
+                <p class="mb-0">
+                  With a commitment to excellence, Castor Tour & Travel prioritizes customer satisfaction through impeccable service standards. From seamless travel arrangements to attentive customer support, every aspect of the journey is
+                  meticulously crafted to exceed expectations.
+                </p>
+              </div>
+            </div>
+
+            <div class="col-md-4 col-12 mt-4">
+              <div class="text-center my-5 px-3">
+                <div class="icon">
+                  <i class="lni lni-camera"></i>
+                </div>
+                <h6 class="py-2">Unforgettable Memories</h6>
+                <p class="mb-0">
+                  By curating journeys filled with unforgettable moments, we ensures that you leave with cherished memories that last a lifetime. Whether it's witnessing breathtaking landscapes, engaging in thrilling activities, or
+                  connecting with local cultures, each experience promises to be extraordinary.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+    <section id="packages" class="py-5">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-12">
+            <span class="subtitle"> Choose Your Place </span>
+            <h2 class="mb-3">Featured Packages</h2>
+          </div>
+        </div>
+        <div class="swiper">
+          <div class="card-slider">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="package card border-0 shadow">
+                  <div class="position-absolute top-0 left-0 ms-3 mt-3 z-1">
+                    <div class="label bg-success text-light">Featured</div>
+                  </div>
+                  <div class="package-img overflow-hidden">
+                    <img src="image/Honeymoon.jpg" class="img-fluid" alt="" />
+                  </div>
+                  <div class="card-header boder-bottom-0 px-4 pt-4">
+                    <h6 class="package-tittle">Honeymoon</h6>
+                    <div class="card-subtitle">
+                      <span class="duration">10 Days</span>
+                      <span class="normal-separate"></span>
+                      <span>
+                        <i class="lni lni-star-fill checked"></i>
+                        <i class="lni lni-star-fill checked"></i>
+                        <i class="lni lni-star-fill checked"></i>
+                        <i class="lni lni-star-fill checked"></i>
+                        <i class="lni lni-star-fill checked"></i>
+                      </span>
+                    </div>
+                  </div>
+                  <div class="card-footer border-top-0 px-4 pt-0 pb-4">
+                    <h5 class="fs-5 m-0">
+                      <span class="price">US $678</span>
+                    </h5>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="package card border-0 shadow">
+                  <div class="package-img overflow-hidden">
+                    <img src="image/Family.jpg" class="img-fluid" alt="" />
+                  </div>
+                  <div class="card-header boder-bottom-0 px-4 pt-4">
+                    <h6 class="package-tittle">Family</h6>
+                    <div class="card-subtitle">
+                      <span class="duration">10 Days</span>
+                      <span class="normal-separate"></span>
+                      <span>
+                        <i class="lni lni-star-fill checked"></i>
+                        <i class="lni lni-star-fill checked"></i>
+                        <i class="lni lni-star-fill checked"></i>
+                        <i class="lni lni-star-fill checked"></i>
+                        <i class="lni lni-star-fill checked"></i>
+                      </span>
+                    </div>
+                  </div>
+                  <div class="card-footer border-top-0 px-4 pt-0 pb-4">
+                    <h5 class="fs-5 m-0">
+                      <span class="price">US $1000</span>
+                    </h5>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="package card border-0 shadow">
+                  <div class="position-absolute top-0 left-0 ms-3 mt-3 z-1">
+                    <div class="label bg-success text-light">Featured</div>
+                  </div>
+                  <div class="package-img overflow-hidden">
+                    <img src="image/Summer Camp.jpg" class="img-fluid" alt="" />
+                  </div>
+                  <div class="card-header boder-bottom-0 px-4 pt-4">
+                    <h6 class="package-tittle">Summer Camp</h6>
+                    <div class="card-subtitle">
+                      <span class="duration">5 Days</span>
+                      <span class="normal-separate"></span>
+                      <span>
+                        <i class="lni lni-star-fill checked"></i>
+                        <i class="lni lni-star-fill checked"></i>
+                        <i class="lni lni-star-fill checked"></i>
+                        <i class="lni lni-star-fill checked"></i>
+                        <i class="lni lni-star-fill checked"></i>
+                      </span>
+                    </div>
+                  </div>
+                  <div class="card-footer border-top-0 px-4 pt-0 pb-4">
+                    <h5 class="fs-5 m-0">
+                      <span class="price">US $750</span>
+                    </h5>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="package card border-0 shadow">
+                  <div class="position-absolute top-0 left-0 ms-3 mt-3 z-1">
+                    <div class="label bg-success text-light">Featured</div>
+                  </div>
+                  <div class="package-img overflow-hidden">
+                    <img src="image/Join Trip.jpg" class="img-fluid" alt="" />
+                  </div>
+                  <div class="card-header boder-bottom-0 px-4 pt-4">
+                    <h6 class="package-tittle">Joint Trip</h6>
+                    <div class="card-subtitle">
+                      <span class="duration">5 Days</span>
+                      <span class="normal-separate"></span>
+                      <span>
+                        <i class="lni lni-star-fill checked"></i>
+                        <i class="lni lni-star-fill checked"></i>
+                        <i class="lni lni-star-fill checked"></i>
+                        <i class="lni lni-star-fill checked"></i>
+                        <i class="lni lni-star-fill checked"></i>
+                      </span>
+                    </div>
+                  </div>
+                  <div class="card-footer border-top-0 px-4 pt-0 pb-4">
+                    <h5 class="fs-5 m-0">
+                      <span class="price">US $500</span>
+                    </h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="arrow my-2 justify-content-start">
+          <div class="prevArrowBtn">
+            <i class="lni lni-chevron-left"></i>
+          </div>
+          <div class="nextArrowBtn">
+            <i class="lni lni-chevron-right"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="featured" class="py-5">
+      <div class="container py-5">
+        <div class="row d-flex align-items-center">
+          <div class="col-md-5 col-12">
+            <div class="mb-3">
+              <img src="image/Bromo.jpg" class="img-fluid w-100 rounded-1" alt="featured" />
+            </div>
+          </div>
+          <div class="col-md-5 offset-md-1 col-12">
+            <span class="subtitle"> Trip Of The Month </span>
+            <h2 class="fw-bold fs-1 mt-3">Bromo Summer Camp</h2>
+            <p class="mb-3">
+              Join us for an unforgettable adventure at our Summer Camp in Bromo, East Java. Immerse yourself in the breathtaking landscapes of Bromo while experiencing thrilling outdoor activities and making lifelong memories with new
+              friends. Explore the stunning natural wonders, embark on exciting hikes, and indulge in local cuisine while enjoying the warmth of Indonesian hospitality. Whether you're seeking adventure or relaxation, our Summer Camp in
+              Bromo promises an enriching and rejuvenating experience for all.
+            </p>
+            <ul class="list-unstyled">
+              <li class="mb-2">
+                <span>
+                  <i class="lni lni-checkmark"></i>
+                </span>
+                <span class="ms-1">Where earth meets sky in a breathtaking embrace.</span>
+              </li>
+
+              <li class="mb-2">
+                <span>
+                  <i class="lni lni-checkmark"></i>
+                </span>
+                <span class="ms-1">a symphony of mist, mountains, and magic.</span>
+              </li>
+
+              <li class="mb-2">
+                <span>
+                  <i class="lni lni-checkmark"></i>
+                </span>
+                <span class="ms-1">nature's masterpiece in East Java.</span>
+              </li>
+
+              <li class="mb-2">
+                <span>
+                  <i class="lni lni-checkmark"></i>
+                </span>
+                <span class="ms-1">where adventure meets serenity.</span>
+              </li>
+            </ul>
+            <a href="#" class="btn btn-outline-secondary border-0 w-100">Explore Package</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="testimonial" class="py-5">
+      <div class="container py-5">
+        <div class="row">
+          <div class="col-md-6 offset-md-3 mx-auto text center">
+            <h2>Travellers Review</h2>
+          </div>
+        </div>
+        <div class="swiper">
+          <div class="testimonial-swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="testimonial-quote text-center mb-4">
+                  <i class="lni lni-quotation"></i>
+                </div>
+                <h4 class="fw-bold mb-4">Their support is so cool !!</h4>
+                <p>
+                  Castor Tour & Travel has truly made my vacation unforgettable! From seamless bookings to expertly curated itineraries, every moment was filled with adventure and relaxation. Their attention to detail and personalized
+                  service exceeded my expectations. I can't wait to embark on my next journey with Castor Tour & Travel
+                </p>
+                <div class="testimonial-info">
+                  <div class="testimonial-img">
+                    <img src="image/testimonial-one.jpg" alt="" />
+                  </div>
+                  <div class="testimonial-label">
+                    <h6 class="fw-bold">Reski</h6>
+                    <span>Viva Studio </span>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="testimonial-quote text-center mb-4">
+                  <i class="lni lni-quotation"></i>
+                </div>
+                <h4 class="fw-bold mb-4">Unforgettable Experience!</h4>
+                <p>
+                  Choosing Castor Tour & Travel was the best decision I made for my trip. Their professionalism and dedication ensured a stress-free experience from start to finish. From hidden gems to iconic landmarks, every aspect of the
+                  journey was meticulously planned. Thank you, Castor Tour & Travel, for creating memories that will last a lifetime!
+                </p>
+                <div class="testimonial-info">
+                  <div class="testimonial-img">
+                    <img src="image/testimonial-two.jpg" alt="" />
+                  </div>
+                  <div class="testimonial-label">
+                    <h6 class="fw-bold">Dwi</h6>
+                    <span>lone traveller</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="blog" class="pt-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <span class="subtitle"> Travel Blog </span>
+            <h2 class="mb-3">Travel Experience</h2>
+          </div>
+          <div class="col-md-4 mb-5">
+            <div class="card border-0">
+              <div class="blog-img overflow-hidden">
+                <img src="image/Honeymoon.jpg" class="img-fluid" />
+              </div>
+              <div class="card-header boder-bottom-0 ps-0">
+                <h5 class="fw-bold mb-0">Honeymoon in Bali</h5>
+              </div>
+              <div class="card-footer border-top-0 ps-0 py-0">
+                <span> Feb 14, 2024 </span>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-5">
+            <div class="card border-0">
+              <div class="blog-img overflow-hidden">
+                <img src="image/Summer Camp.jpg" class="img-fluid" />
+              </div>
+              <div class="card-header boder-bottom-0 ps-0">
+                <h5 class="fw-bold mb-0">Camping in Bromo</h5>
+              </div>
+              <div class="card-footer border-top-0 ps-0 py-0">
+                <span> Mar 30, 2024 </span>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-5">
+            <div class="card border-0">
+              <div class="blog-img overflow-hidden">
+                <img src="image/Family.jpg" class="img-fluid" />
+              </div>
+              <div class="card-header boder-bottom-0 ps-0">
+                <h5 class="fw-bold mb-0">Family trip to Bali</h5>
+              </div>
+              <div class="card-footer border-top-0 ps-0 py-0">
+                <span> May 01, 2024 </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact" class="py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="row align-items-center g-5">
+              <div class="col-lg-4 col-12 order-2">
+                <span class="subtitle"> Contact Information </span>
+                <ul class="contact-info ps-0 mt-5">
+                  <li class="contact-item mb-4">
+                    <div class="my-auto">
+                      <i class="lni lni-phone"></i>
+                    </div>
+                    <div class="contact-detail">
+                      <h5>Customer Care</h5>
+                      <span>+01 (123) 4567 90</span>
+                    </div>
+                  </li>
+                  <li class="contact-item mb-4">
+                    <div class="my-auto">
+                      <i class="lni lni-envelope"></i>
+                    </div>
+                    <div class="contact-detail">
+                      <h5>write to us</h5>
+                      <span>rh@gmail.com</span>
+                    </div>
+                  </li>
+                  <li class="contact-item mb-4">
+                    <div class="my-auto">
+                      <i class="lni lni-map-marker"></i>
+                    </div>
+                    <div class="contact-detail">
+                      <h5>Location</h5>
+                      <span>3146 West Sumatra, Indonesia</span>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-lg-8 col-12 order-lg-2">
+                <div class="card bg-transparent border-0">
+                  <div class="card-body">
+                    <form class="row needs-validation g-3" novalidate="" id="contact-form" method="POST" action="#">
+                      <div class="col-lg-12">
+                        <div class="mb-3">
+                          <span class="subtitle"> Leave a Message </span>
+                        </div>
+                      </div>
+                      <div class="col-md-6 col-12">
+                        <label for="ScheduleFirstnameInput" class="form-label">
+                          First Name
+                          <span class="text-danger">*</span>
+                        </label>
+                        <input type="text" class="form-control" id="ScheduleFirstnameInput" required="" placeholder="Enter Your First Name" />
+                        <div class="invalid-feedback">Please enter firstname.</div>
+                      </div>
+                      <div class="col-md-6 col-12">
+                        <label for="scheduleLastnameInput" class="form-label">
+                          Last Name
+                          <span class="text-danger">*</span>
+                        </label>
+                        <input type="text" class="form-control" id="scheduleLastnameInput" required="" placeholder="Enter Your First Name" />
+                        <div class="invalid-feedback">Please enter lastname.</div>
+                      </div>
+                      <div class="col-md-12">
+                        <label for="scheduleEmailInput" class="form-label">
+                          Email
+                          <span class="text-danger">*</span>
+                        </label>
+                        <input type="email" class="form-control" id="scheduleEmailInput" required="" placeholder="Enter Your First Email" />
+                        <div class="invalid-feedback">Please enter email.</div>
+                      </div>
+                      <div class="col-md-12">
+                        <label for="scheduleTextarea" class="form-label">Message</label>
+                        <textarea class="form-control" id="scheduleTextarea" rows="3" required="" placeholder="Your Message"></textarea>
+                        <div class="invalid-feedback">Please write message.</div>
+                      </div>
+                      <div class="d-grid">
+                        <button class="btn btn-primary border-0" type="submit">Send Message</button>
+                      </div>
+                      <div class="loader">
+                        <i class="lni lni-spinner-solid"></i>
+                      </div>
+                      <div class="form-message"></div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="py-5">
+      <div class="row align-items-center mb-5">
+        <div class="col-12 col-md-6 text-center text-md-start px-0">
+          <img src="image/logo.png" alt="logo" />
+        </div>
+        <div class="col-md-6 d-none d-md-block text-end">
+          <ul class="footer-nav list-inline mb-0">
+            <li class="list-inline-item">
+              <a href="#">Support</a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#">Help Center</a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#">Privacy</a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#">Terms</a>
+            </li>
+          </ul>
+        </div>
+        <div class="row align-items-center">
+          <div class="col-6 text-start copyright d-none d-md-block">© 2024 reskirao. All rights reserved</div>
+          <div class="col-12 col-md-6 text-center text-md-end px-0">
+            <ul class="list-inline mb-0 social-icons">
+              <li class="list-inline-item social-item">
+                <a href="#">
+                  <i class="lni lni-facebook-fill"></i>
+                </a>
+              </li>
+              <li class="list-inline-item social-item">
+                <a href="#">
+                  <i class="lni lni-linkedin-original"></i>
+                </a>
+              </li>
+              <li class="list-inline-item social-item">
+                <a href="#">
+                  <i class="lni lni-twitter-fill"></i>
+                </a>
+              </li>
+              <li class="list-inline-item social-item">
+                <a href="#">
+                  <i class="lni lni-instagram-fill"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <button id="scroll-top-btn" type="button" onclick="scrollToTop()" class="visible">
+      <i class="lni lni-arrow-up"></i>
+    </button>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
